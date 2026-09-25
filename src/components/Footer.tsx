@@ -37,7 +37,7 @@ export default function Footer() {
               </li>
               <li>
                 <Mail size={18} className="contact-icon" />
-                <span>consult@maheshwarmaharaj.com</span>
+                <span>mmaini174@gmail.com</span>
               </li>
               <li>
                 <MapPin size={18} className="contact-icon" />
