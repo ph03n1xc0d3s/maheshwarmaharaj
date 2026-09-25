@@ -45,7 +45,26 @@
 }
 
 @media (max-width: 768px) {
+  .navbar {
+    top: 0.75rem;
+    padding: 0.75rem 1.25rem;
+    width: 94%;
+  }
+
+  .logo {
+    font-size: 1.1rem;
+  }
+
+  .nav-links {
+    gap: 1rem;
+  }
+
   .nav-links a:not(.nav-btn) {
     display: none;
+  }
+
+  .nav-btn {
+    padding: 0.4rem 1rem;
+    font-size: 0.85rem;
   }
 }

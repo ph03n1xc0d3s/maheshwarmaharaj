@@ -92,3 +92,21 @@
 .service-card:hover .service-link span {
   transform: translateX(4px);
 }
+
+@media (max-width: 576px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .service-card {
+    padding: 2rem 1.5rem;
+  }
+
+  .service-title {
+    font-size: 1.25rem;
+  }
+
+  .service-desc {
+    font-size: 0.9rem;
+  }
+}

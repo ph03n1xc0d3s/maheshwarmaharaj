@@ -166,9 +166,13 @@
 @media (max-width: 992px) {
   .about-grid {
     grid-template-columns: 1fr;
-    gap: 5rem;
+    gap: 3rem;
   }
   
+  .about-image-wrapper {
+    max-width: 350px;
+  }
+
   .about-content-col {
     text-align: center;
   }
@@ -177,10 +181,38 @@
     right: 50%;
     transform: translateX(50%);
   }
+
+  .lineage-box {
+    text-align: left;
+  }
 }
 
 @media (max-width: 576px) {
+  .about-heading {
+    font-size: 1.6rem;
+  }
+
+  .about-text {
+    font-size: 0.95rem;
+  }
+
+  .lineage-list {
+    grid-template-columns: 1fr;
+  }
+
   .stats-grid {
     grid-template-columns: 1fr;
+  }
+
+  .experience-badge {
+    padding: 1rem;
+  }
+
+  .exp-number {
+    font-size: 2rem;
+  }
+
+  .exp-text {
+    font-size: 0.75rem;
   }
 }
