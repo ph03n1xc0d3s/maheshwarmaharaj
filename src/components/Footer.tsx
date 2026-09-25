@@ -1,4 +1,4 @@
-import { Globe, MessageCircle, Share2, Mail, Phone, MapPin } from 'lucide-react';
+import { Instagram, Youtube, MessageCircle, Mail, Phone, MapPin } from 'lucide-react';
 import './Footer.css';
 
 export default function Footer() {
@@ -9,12 +9,12 @@ export default function Footer() {
           <div className="footer-brand">
             <h3 className="logo text-gradient">Maheshwar Maharaj</h3>
             <p className="footer-desc">
-              Illuminating life's path through Redbook (Lal Kitab) wisdom and over 35 years of dedicated healing practice.
+              Illuminating life's path through Redbook (Lal Kitab) wisdom and over 30 years of dedicated healing practice.
             </p>
             <div className="social-links">
-              <a href="#" className="social-link"><Globe size={20} /></a>
-              <a href="#" className="social-link"><MessageCircle size={20} /></a>
-              <a href="#" className="social-link"><Share2 size={20} /></a>
+              <a href="https://www.instagram.com/maheshwar.maharaj" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="Instagram"><Instagram size={20} /></a>
+              <a href="https://youtube.com/@acharyamaheshmaini" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="YouTube"><Youtube size={20} /></a>
+              <a href="https://wa.me/918168969466" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="WhatsApp"><MessageCircle size={20} /></a>
             </div>
           </div>
           
