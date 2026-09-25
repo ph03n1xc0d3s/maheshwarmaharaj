@@ -38,8 +38,19 @@ export default function About() {
           >
             <h3 className="about-heading">A Legacy of Astrological Excellence</h3>
             <p className="about-text">
-              With over three decades of profound experience in Redbook (Lal Kitab) Astrology, Tantrakaat, and Mantrasadhna, Maheshwar Maharaj has dedicated his life to offering powerful, practical remedies. His journey is deeply rooted in the wisdom acquired under the direct supervision and grace of revered spiritual leaders, including Dr. Narayan Dutt Shrimali Ji, Dr. GD Vashishth Ji, Dineshwar Maharaj Ji, and Dr. N.K. Sharma.
+              With over three decades of profound experience in Redbook (Lal Kitab) Astrology, Tantrakaat, and Mantrasadhna, Maheshwar Maharaj has dedicated his life to offering powerful, practical remedies.
             </p>
+            
+            <div className="lineage-box glass-panel">
+              <h4 className="lineage-title text-gradient">Spiritual Lineage & Mentorship</h4>
+              <p className="lineage-desc">Blessed and trained under the direct supervision of revered masters:</p>
+              <ul className="lineage-list">
+                <li>Dr. Narayan Dutt Shrimali Ji</li>
+                <li>Dr. GD Vashishth Ji</li>
+                <li>Dineshwar Maharaj Ji</li>
+                <li>Dr. N.K. Sharma</li>
+              </ul>
+            </div>
             <p className="about-text">
               Today, he is recognized globally for his astonishing accuracy and compassionate guidance. Whether it's identifying the perfect Lucky Gems or channeling energy as a Reiki Grand Master, his holistic approach illuminates the path to success and peace.
             </p>
