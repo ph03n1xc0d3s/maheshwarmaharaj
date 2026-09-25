@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { Star, Award, BookOpen } from 'lucide-react';
-import maharajImg from '../assets/maharaj.jpg';
+import maharajImg from '../assets/maharaj-2.jpg';
 import './About.css';
 
 export default function About() {
