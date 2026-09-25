@@ -11,7 +11,7 @@ const services = [
   {
     icon: <ShieldAlert size={32} />,
     title: 'Tantrakaat',
-    description: 'Powerful interventions to remove negative energies, evil eye (Nazar), and unseen obstacles from your path.',
+    description: 'Powerful interventions including Tantra Kaat, Pitter Bandan Kaat, Kuldevi-Devta Bandan Kaat, and Rozi-Rozgaar Bandan Kaat to remove all unseen obstacles.',
   },
   {
     icon: <Sparkles size={32} />,
