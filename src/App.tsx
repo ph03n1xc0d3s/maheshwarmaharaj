@@ -17,7 +17,7 @@ function App() {
             <a href="#about">About</a>
             <a href="#services">Services</a>
             <a href="#testimonials">Testimonials</a>
-            <button className="btn btn-outline nav-btn">Contact</button>
+            <a href="#contact" className="btn btn-outline nav-btn">Contact</a>
           </div>
         </div>
       </nav>

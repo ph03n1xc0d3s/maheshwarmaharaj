@@ -47,13 +47,13 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.9, duration: 0.8 }}
           >
-            <button className="btn btn-primary">
+            <a href="#contact" className="btn btn-primary">
               <Calendar size={18} />
               Book a Consultation
-            </button>
-            <button className="btn btn-outline">
+            </a>
+            <a href="#services" className="btn btn-outline">
               Explore Services
-            </button>
+            </a>
           </motion.div>
         </motion.div>
 

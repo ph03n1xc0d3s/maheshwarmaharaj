@@ -24,7 +24,7 @@ export default function Footer() {
               <li><a href="#about">About Maharaj Ji</a></li>
               <li><a href="#services">Astrology Services</a></li>
               <li><a href="#testimonials">Client Testimonials</a></li>
-              <li><a href="#">Book Consultation</a></li>
+              <li><a href="#contact">Book Consultation</a></li>
             </ul>
           </div>
           
