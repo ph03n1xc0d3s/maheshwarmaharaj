@@ -19,7 +19,7 @@ export default function Hero() {
             transition={{ delay: 0.3, duration: 0.5 }}
           >
             <Sparkles size={16} className="text-gold" />
-            <span>35+ Years of Vedic Astrology Excellence</span>
+            <span>35+ Years of Redbook Astrology & Tantrakaat Excellence</span>
           </motion.div>
           
           <motion.h1 
@@ -38,7 +38,7 @@ export default function Hero() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.7, duration: 0.8 }}
           >
-            Discover profound insights into your life's journey, career, and relationships through ancient Vedic wisdom. Unveil the cosmic blueprint of your existence.
+            Discover profound insights and powerful remedies through Redbook (Lal Kitab) astrology, Tantrakaat, and Reiki healing. Unveil the cosmic blueprint of your existence.
           </motion.p>
           
           <motion.div 

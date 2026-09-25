@@ -35,10 +35,10 @@ export default function About() {
           >
             <h3 className="about-heading">A Legacy of Astrological Excellence</h3>
             <p className="about-text">
-              With over three decades of profound experience in Vedic Astrology, Maheshwar Maharaj has dedicated his life to deciphering the intricate language of the stars. His journey began in the spiritual heartlands of India, learning from revered masters and ancient texts.
+              With over three decades of profound experience in Redbook (Lal Kitab) Astrology, Tantrakaat, and Mantrasadhna, Maheshwar Maharaj has dedicated his life to offering powerful, practical remedies. His journey began in the spiritual heartlands of India, mastering ancient texts, Vastu, and the healing arts.
             </p>
             <p className="about-text">
-              Today, he is recognized globally for his astonishing accuracy and compassionate guidance. Whether navigating complex career choices, intricate relationships, or finding life's true purpose, his insights illuminate the path forward.
+              Today, he is recognized globally for his astonishing accuracy and compassionate guidance. Whether it's identifying the perfect Lucky Gems or channeling energy as a Reiki Grand Master, his holistic approach illuminates the path to success and peace.
             </p>
             
             <div className="stats-grid">
@@ -54,8 +54,8 @@ export default function About() {
               </div>
               <div className="stat-item glass-panel">
                 <BookOpen className="text-gold stat-icon" size={24} />
-                <h4 className="stat-title">Vedic</h4>
-                <p className="stat-desc">Mastery</p>
+                <h4 className="stat-title">Reiki</h4>
+                <p className="stat-desc">Grand Master</p>
               </div>
             </div>
           </motion.div>

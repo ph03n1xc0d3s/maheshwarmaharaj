@@ -1,37 +1,37 @@
 import { motion } from 'framer-motion';
-import { Compass, Heart, Briefcase, Home, Gem, Sparkles } from 'lucide-react';
+import { BookOpen, ShieldAlert, Sparkles, Home, Activity, Gem } from 'lucide-react';
 import './Services.css';
 
 const services = [
   {
-    icon: <Compass size={32} />,
-    title: 'Kundli Reading',
-    description: 'Detailed analysis of your birth chart to uncover life patterns, strengths, and future trajectories.',
+    icon: <BookOpen size={32} />,
+    title: 'Redbook Astrology',
+    description: 'Practical and effective remedies from the Lal Kitab to resolve complex life problems without expensive rituals.',
   },
   {
-    icon: <Heart size={32} />,
-    title: 'Matchmaking',
-    description: 'Comprehensive compatibility analysis for marriage using traditional Ashtakoot and Dashakoot systems.',
-  },
-  {
-    icon: <Briefcase size={32} />,
-    title: 'Career Guidance',
-    description: 'Strategic astrological insights for career choices, business ventures, and financial prosperity.',
-  },
-  {
-    icon: <Home size={32} />,
-    title: 'Vaastu Consultation',
-    description: 'Harmonize your living and working spaces with cosmic energies to attract positivity and abundance.',
-  },
-  {
-    icon: <Gem size={32} />,
-    title: 'Gemstone Remedies',
-    description: 'Authentic recommendations for precious stones to balance planetary influences and enhance well-being.',
+    icon: <ShieldAlert size={32} />,
+    title: 'Tantrakaat',
+    description: 'Powerful interventions to remove negative energies, evil eye (Nazar), and unseen obstacles from your path.',
   },
   {
     icon: <Sparkles size={32} />,
-    title: 'Muhurat Selection',
-    description: 'Identifying the most auspicious timings for significant life events, ceremonies, and new beginnings.',
+    title: 'Mantrasadhna',
+    description: 'Guidance on sacred chanting and meditation practices to align your spiritual vibrations for success and peace.',
+  },
+  {
+    icon: <Home size={32} />,
+    title: 'Vastu Consultation',
+    description: 'Harmonize your living and working spaces with cosmic energies to attract positivity, health, and abundance.',
+  },
+  {
+    icon: <Activity size={32} />,
+    title: 'Reiki Grand Master',
+    description: 'Advanced spiritual energy healing to balance chakras, relieve stress, and promote physical and emotional well-being.',
+  },
+  {
+    icon: <Gem size={32} />,
+    title: 'Lucky Gems',
+    description: 'Authentic recommendations for precious and semi-precious stones to amplify planetary blessings and luck.',
   }
 ];
 
