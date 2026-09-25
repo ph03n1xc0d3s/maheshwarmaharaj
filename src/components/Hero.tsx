@@ -20,7 +20,7 @@ export default function Hero() {
             transition={{ delay: 0.3, duration: 0.5 }}
           >
             <Sparkles size={16} className="text-gold" />
-            <span>35+ Years of Redbook Astrology & Tantrakaat Excellence</span>
+            <span>30+ Years of Redbook Astrology & Tantrakaat Excellence</span>
           </motion.div>
           
           <motion.h1 
