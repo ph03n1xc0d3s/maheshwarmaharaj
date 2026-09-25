@@ -5,7 +5,7 @@ import './Hero.css';
 
 export default function Hero() {
   return (
-    <section className="hero">
+    <section id="hero" className="hero" aria-label="Introduction to Maheshwar Maharaj">
       <div className="container hero-container">
         <motion.div 
           className="hero-content"

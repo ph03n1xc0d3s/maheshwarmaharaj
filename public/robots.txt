@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://maheshwarmaharaj.vercel.app/sitemap.xml
