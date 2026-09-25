@@ -47,8 +47,8 @@ export default function About() {
               <ul className="lineage-list">
                 <li>Dr. Narayan Dutt Shrimali Ji</li>
                 <li>Dr. GD Vashishth Ji</li>
-                <li>Dineshwar Maharaj Ji</li>
-                <li>Dr. N.K. Sharma</li>
+                <li>Gurudev Dineshwar Maharaj Ji</li>
+                <li>Dr. N.K. Sharma Ji</li>
               </ul>
             </div>
             <p className="about-text">
