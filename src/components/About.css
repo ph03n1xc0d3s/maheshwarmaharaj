@@ -41,6 +41,7 @@
   position: absolute;
   bottom: -20px;
   right: -20px;
+  z-index: 10;
   padding: 1.5rem;
   display: flex;
   flex-direction: column;
