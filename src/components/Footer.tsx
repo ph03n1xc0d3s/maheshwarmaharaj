@@ -33,7 +33,7 @@ export default function Footer() {
             <ul>
               <li>
                 <Phone size={18} className="contact-icon" />
-                <span>+91 98960 85166</span>
+                <span>+91 81689 69466</span>
               </li>
               <li>
                 <Mail size={18} className="contact-icon" />
