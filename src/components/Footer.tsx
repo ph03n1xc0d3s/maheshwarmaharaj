@@ -41,7 +41,7 @@ export default function Footer() {
               </li>
               <li>
                 <MapPin size={18} className="contact-icon" />
-                <span>Redbook Center, New Delhi, India</span>
+                <span>YamunaNagar, Haryana</span>
               </li>
             </ul>
           </div>
