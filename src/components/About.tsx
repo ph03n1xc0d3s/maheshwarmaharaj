@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { Star, Award, BookOpen } from 'lucide-react';
-import maharajImg from '../assets/maharaj-2.jpg';
+import maharajImg from '../assets/maharaj-2.webp';
 import './About.css';
 
 export default function About() {
@@ -20,7 +20,7 @@ export default function About() {
           >
             <div className="about-image-wrapper">
               <div className="about-image glass-panel">
-                <img src={maharajImg} alt="Maheshwar Maharaj" className="about-photo" />
+                <img src={maharajImg} alt="Maheshwar Maharaj" className="about-photo" loading="lazy" width={878} height={1536} />
               </div>
               <div className="experience-badge glass-panel">
                 <span className="exp-number text-gradient">30+</span>

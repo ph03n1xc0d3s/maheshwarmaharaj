@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { Sparkles, Calendar } from 'lucide-react';
-import maharajImg from '../assets/maharaj.jpg';
+import maharajImg from '../assets/maharaj.webp';
 import './Hero.css';
 
 export default function Hero() {
@@ -65,7 +65,7 @@ export default function Hero() {
           transition={{ delay: 0.6, duration: 1 }}
         >
           <div className="hero-image glass-panel">
-            <img src={maharajImg} alt="Maheshwar Maharaj" className="hero-photo" />
+            <img src={maharajImg} alt="Maheshwar Maharaj" className="hero-photo" loading="eager" fetchPriority="high" width={1080} height={1345} />
             <div className="image-overlay"></div>
             <div className="astrology-wheel"></div>
           </div>
