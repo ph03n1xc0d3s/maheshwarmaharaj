@@ -142,12 +142,13 @@
 
 @media (max-width: 992px) {
   .hero {
-    padding-top: 100px;
+    padding-top: 120px;
   }
 
   .hero-container {
     grid-template-columns: 1fr;
     text-align: center;
+    gap: 2rem;
   }
   
   .hero-content {
@@ -172,14 +173,18 @@
 
 @media (max-width: 576px) {
   .hero {
-    padding-top: 80px;
+    padding-top: 100px;
     padding-bottom: 2rem;
+  }
+
+  .hero-container {
+    gap: 1.5rem;
   }
 
   .hero-badge {
     font-size: 0.75rem;
     padding: 0.4rem 0.8rem;
-    margin-bottom: 1.25rem;
+    margin-bottom: 1rem;
   }
 
   .hero-actions {
