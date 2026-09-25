@@ -1,0 +1,165 @@
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  padding-top: 80px;
+}
+
+.hero-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+  position: relative;
+  z-index: 10;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  font-size: 0.875rem;
+  margin-bottom: 2rem;
+  color: var(--text-main);
+  background: rgba(226, 192, 68, 0.1);
+  border-color: rgba(226, 192, 68, 0.2);
+}
+
+.text-gold {
+  color: var(--accent-gold);
+}
+
+.hero-title {
+  font-size: 4rem;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+}
+
+.hero-description {
+  font-size: 1.125rem;
+  color: var(--text-muted);
+  max-width: 90%;
+  margin-bottom: 2.5rem;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.hero-image-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image {
+  width: 90%;
+  height: 90%;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, rgba(20, 22, 28, 0.9), rgba(74, 20, 140, 0.2));
+  border: 1px solid rgba(226, 192, 68, 0.3);
+  box-shadow: 0 0 40px rgba(226, 192, 68, 0.1);
+}
+
+.astrology-wheel {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  right: 10%;
+  bottom: 10%;
+  border-radius: 50%;
+  border: 1px dashed rgba(226, 192, 68, 0.3);
+  animation: rotate 60s linear infinite;
+  background-image: conic-gradient(from 0deg, transparent 0%, rgba(226, 192, 68, 0.1) 25%, transparent 50%, rgba(74, 20, 140, 0.1) 75%, transparent 100%);
+}
+
+.astrology-wheel::before, .astrology-wheel::after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  border: 1px dashed rgba(226, 192, 68, 0.2);
+}
+
+.astrology-wheel::before {
+  top: 15%; left: 15%; right: 15%; bottom: 15%;
+  animation: rotate 45s linear infinite reverse;
+}
+
+.astrology-wheel::after {
+  top: 30%; left: 30%; right: 30%; bottom: 30%;
+  animation: rotate 30s linear infinite;
+}
+
+.glow-orb {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  height: 60%;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(226, 192, 68, 0.2) 0%, transparent 70%);
+  filter: blur(40px);
+  z-index: -1;
+  animation: pulse 4s ease-in-out infinite alternate;
+}
+
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes pulse {
+  0% { transform: translate(-50%, -50%) scale(1); opacity: 0.5; }
+  100% { transform: translate(-50%, -50%) scale(1.2); opacity: 1; }
+}
+
+@media (max-width: 992px) {
+  .hero-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  
+  .hero-content {
+    align-items: center;
+  }
+  
+  .hero-description {
+    max-width: 100%;
+  }
+  
+  .hero-title {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .hero-actions .btn {
+    width: 100%;
+  }
+  
+  .hero-title {
+    font-size: 2.5rem;
+  }
+}
