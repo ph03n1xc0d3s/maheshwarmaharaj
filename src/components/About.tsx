@@ -23,7 +23,7 @@ export default function About() {
                 <img src={maharajImg} alt="Maheshwar Maharaj" className="about-photo" />
               </div>
               <div className="experience-badge glass-panel">
-                <span className="exp-number text-gradient">35+</span>
+                <span className="exp-number text-gradient">30+</span>
                 <span className="exp-text">Years of<br/>Experience</span>
               </div>
             </div>
@@ -45,7 +45,7 @@ export default function About() {
               <h4 className="lineage-title text-gradient">Spiritual Lineage & Mentorship</h4>
               <p className="lineage-desc">Blessed and trained under the direct supervision of revered masters:</p>
               <ul className="lineage-list">
-                <li>Dr. Narayan Dutt Shrimali Ji</li>
+                <li>Gurudev Dr. Narayan Dutt Shrimali Ji</li>
                 <li>Dr. GD Vashishth Ji</li>
                 <li>Gurudev Dineshwar Maharaj Ji</li>
                 <li>Dr. N.K. Sharma Ji</li>
