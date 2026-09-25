@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { BookOpen, ShieldAlert, Sparkles, Home, Activity, Gem } from 'lucide-react';
+import { BookOpen, ShieldAlert, Sparkles, Home, Activity, Gem, Users, Flame, Briefcase } from 'lucide-react';
 import './Services.css';
 
 const services = [
@@ -10,8 +10,23 @@ const services = [
   },
   {
     icon: <ShieldAlert size={32} />,
-    title: 'Tantrakaat',
-    description: 'Powerful interventions including Tantra Kaat, Pitter Bandan Kaat, Kuldevi-Devta Bandan Kaat, and Rozi-Rozgaar Bandan Kaat to remove all unseen obstacles.',
+    title: 'Tantra Kaat',
+    description: 'Powerful interventions to remove negative energies, evil eye (Nazar), and unseen obstacles from your path.',
+  },
+  {
+    icon: <Users size={32} />,
+    title: 'Pitter Bandan Kaat',
+    description: 'Liberate your ancestral lineage from karmic blockages to restore peace, harmony, and prosperity in your family.',
+  },
+  {
+    icon: <Flame size={32} />,
+    title: 'Kuldevi-Devta Bandan Kaat',
+    description: 'Remove spiritual bindings on your family deities to ensure their continuous blessings and divine protection.',
+  },
+  {
+    icon: <Briefcase size={32} />,
+    title: 'Rozi-Rozgaar Bandan Kaat',
+    description: 'Clear unseen blockages affecting your business, job, and career growth to invite wealth and success.',
   },
   {
     icon: <Sparkles size={32} />,
